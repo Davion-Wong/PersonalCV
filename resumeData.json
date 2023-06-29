@@ -25,7 +25,7 @@
       }
     },
     "website": "http://cyberlark.com.au",
-    "resumedownload":"./images/resume.pdf",
+    "resumedownload":"./images/ZiLong_Wang_CV.pdf",
     "social":[
       {
         "name":"twitter",
@@ -92,6 +92,10 @@
       {
         "name":"Frontend Interaction Development (JavaScript)",
         "level":"95%"
+      },
+      {
+        "name":"React Framework",
+        "level":"65%"
       },
       {
         "name":"Python data processing",
