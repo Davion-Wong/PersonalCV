@@ -86,16 +86,16 @@
     ],
     "skills":[
       {
-        "name":"Interface Graphics Development (HTML, CSS)",
-        "level":"90%"
+        "name":"React Framework",
+        "level":"95%"
       },
       {
         "name":"Frontend Interaction Development (JavaScript)",
         "level":"95%"
       },
       {
-        "name":"React Framework",
-        "level":"65%"
+        "name":"Interface Graphics Development (HTML, CSS)",
+        "level":"90%"
       },
       {
         "name":"Python data processing",
