@@ -63,20 +63,6 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project5 = (
-      <div key="A-Random-Quote-Machine" className="columns portfolio-item">
-        <div className="item-wrap">
-          <a href="https://davion-wong.github.io/A-Random-Quote-Machine/" title="">
-            <img alt="" src={quote} />
-            <div className="overlay">
-              <div className="portfolio-item-meta">
-                <h5>A Random Quote Machine</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    )
     return (
       <section id="portfolio">
         <div className="row">
