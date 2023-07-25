@@ -3,7 +3,6 @@ import clock from "../Images/A-25plus5-clock.png"
 import calculator from "../Images/A-JavaScript-Calculator.png"
 import drum from "../Images/A-Drum_Machine.png"
 import markdown from "../Images/A-Markdown-Previewer.png"
-import quote from "../Images/A-Random-Quote-Machine.png"
 
 class Portfolio extends Component {
   render() {
