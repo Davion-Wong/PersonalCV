@@ -1,74 +1,97 @@
 import React, { Component } from "react"
+import clock from "../Images/A-25plus5-clock.png"
+import calculator from "../Images/A-JavaScript-Calculator.png"
+import drum from "../Images/A-Drum_Machine.png"
+import markdown from "../Images/A-Markdown-Previewer.png"
+import quote from "../Images/A-Random-Quote-Machine.png"
 
 class Portfolio extends Component {
   render() {
-    if (!this.props.data) return null
-
-    var portfolio = this.props.data.projects.map(function (project) {
-      var imageUrl = "images/portfolio/" + (project.image ? project.image : "sample-image.svg")
-      return (
-        <div key={project.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={project.url} title="">
-              <img alt="" src={imageUrl} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{project.title}</h5>
-                  <p>{project.description}</p>
-                </div>
+    var project1 = (
+      <div key="A-25plus5-clock" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-25plus5-Clock/" title="">
+            <img alt="" src={clock} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A 25 + 5 clock</h5>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
-      )
-    })
-
+      </div>
+    )
+    var project2 = (
+      <div key="A-JavaScrip-Calculator" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-JavaScript-Calculator/" title="">
+            <img alt="" src={calculator} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A JavaScrip Calculator</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project3 = (
+      <div key="A-Drum-Machine" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Drum-Machine/" title="">
+            <img alt="" src={drum} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Drum Machine</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project4 = (
+      <div key="A-Markdown-Previewer" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Markdown-Previewer/" title="">
+            <img alt="" src={markdown} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Markdown Previewer</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project5 = (
+      <div key="A-Random-Quote-Machine" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Random-Quote-Machine/" title="">
+            <img alt="" src={quote} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Random Quote Machine</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
     return (
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              {portfolio}
+              {project1}
+              {project2}
+              {project3}
+              {project4}
             </div>
           </div>
         </div>
       </section>
     )
-
-    /*
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
-
-      return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
-        </div>
-      );
-    });
-
-    return (
-      <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
-          <div className="row">
-            <div className="twelve columns collapsed">
-              <h1>Check Out My Videos</h1>
-
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
-            </div>
-          </div>
-        </Fade>
-      </section>
-    );
-    */
   }
 }
 
