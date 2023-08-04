@@ -3,6 +3,9 @@ import clock from "../Images/A-25plus5-clock.png"
 import calculator from "../Images/A-JavaScript-Calculator.png"
 import drum from "../Images/A-Drum_Machine.png"
 import markdown from "../Images/A-Markdown-Previewer.png"
+import barChart from "../Images/A-Bar-Chart.png"
+import scatterPlot from "../Images/A-ScatterPlot-Graph.png"
+import heatMap from "../Images/A-Heat-Map.png"
 
 class Portfolio extends Component {
   render() {
@@ -62,6 +65,48 @@ class Portfolio extends Component {
         </div>
       </div>
     )
+    var project5 = (
+      <div key="A-Bar-Chart" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Bar-Chart/" title="">
+            <img alt="" src={barChart} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Bar Chart</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project6 = (
+      <div key="A-ScatterPlot-Graph" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-ScatterPlot-Graph/" title="">
+            <img alt="" src={scatterPlot} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A ScatterPlot Graph</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project7 = (
+      <div key="A-Heat-Map" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Heat-Map/" title="">
+            <img alt="" src={heatMap} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Heat Map</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
     return (
       <section id="portfolio">
         <div className="row">
@@ -72,6 +117,9 @@ class Portfolio extends Component {
               {project2}
               {project3}
               {project4}
+              {project5}
+              {project6}
+              {project7}
             </div>
           </div>
         </div>
