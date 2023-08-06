@@ -6,6 +6,9 @@ import markdown from "../Images/A-Markdown-Previewer.png"
 import barChart from "../Images/A-Bar-Chart.png"
 import scatterPlot from "../Images/A-ScatterPlot-Graph.png"
 import heatMap from "../Images/A-Heat-Map.png"
+import quote from "../Images/A-Random-Quote-Machine.png"
+import treemap from "../Images/A-Treemap-Diagram.png"
+import choropleth from "../Images/A-Choropleth-Map.png"
 
 class Portfolio extends Component {
   render() {
@@ -107,6 +110,48 @@ class Portfolio extends Component {
         </div>
       </div>
     )
+    var project8 = (
+      <div key="A-Quote-Machine" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Random-Quote-Machine/" title="">
+            <img alt="" src={quote} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Random Quote Machine</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project9 = (
+      <div key="A-Choropleth-Map" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Choropleth-Map/" title="">
+            <img alt="" src={choropleth} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Choropleth Map</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project10 = (
+      <div key="A-Treemap-Diagram" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Treemap-Diagram/" title="">
+            <img alt="" src={treemap} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Treemap Diagram</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
     return (
       <section id="portfolio">
         <div className="row">
@@ -120,6 +165,9 @@ class Portfolio extends Component {
               {project5}
               {project6}
               {project7}
+              {project8}
+              {project9}
+              {project10}
             </div>
           </div>
         </div>
