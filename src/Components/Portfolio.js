@@ -56,20 +56,6 @@ class Portfolio extends Component {
       </div>
     )
     var project4 = (
-      <div key="A-Drum-Machine" className="columns portfolio-item">
-        <div className="item-wrap">
-          <a href="https://davion-wong.github.io/A-Drum-Machine/" title="">
-            <img alt="" src={drum} />
-            <div className="overlay">
-              <div className="portfolio-item-meta">
-                <h5>A Drum Machine</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    )
-    var project5 = (
       <div key="A-Markdown-Previewer" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Markdown-Previewer/" title="">
@@ -77,6 +63,20 @@ class Portfolio extends Component {
             <div className="overlay">
               <div className="portfolio-item-meta">
                 <h5>A Markdown Previewer</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project5 = (
+      <div key="A-Drum-Machine" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/A-Drum-Machine/" title="">
+            <img alt="" src={drum} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>A Drum Machine</h5>
               </div>
             </div>
           </a>
