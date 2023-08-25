@@ -10,10 +10,25 @@ import quote from "../Images/A-Random-Quote-Machine.png"
 import treemap from "../Images/A-Treemap-Diagram.png"
 import choropleth from "../Images/A-Choropleth-Map.png"
 import ecommerce from "../Images/My-E-Commerce.png"
+import finance from "../Images/My-Finance-Dashboard.png"
 
 class Portfolio extends Component {
   render() {
     var project1 = (
+      <div key="My-Finance-Dashboard" className="columns portfolio-item">
+        <div className="item-wrap">
+          <a href="https://davion-wong.github.io/Finance_Dashboard/" title="">
+            <img alt="" src={finance} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>My Finance Dashboard mockup</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    )
+    var project2 = (
       <div key="My-E-Commerce" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/E-Commerce/" title="">
@@ -27,7 +42,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project2 = (
+    var project3 = (
       <div key="A-25plus5-clock" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-25plus5-Clock/" title="">
@@ -41,7 +56,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project3 = (
+    var project4 = (
       <div key="A-JavaScrip-Calculator" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-JavaScript-Calculator/" title="">
@@ -55,7 +70,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project4 = (
+    var project5 = (
       <div key="A-Markdown-Previewer" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Markdown-Previewer/" title="">
@@ -69,7 +84,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project5 = (
+    var project6 = (
       <div key="A-Drum-Machine" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Drum-Machine/" title="">
@@ -83,7 +98,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project6 = (
+    var project7 = (
       <div key="A-Bar-Chart" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Bar-Chart/" title="">
@@ -97,7 +112,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project7 = (
+    var project8 = (
       <div key="A-ScatterPlot-Graph" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-ScatterPlot-Graph/" title="">
@@ -111,7 +126,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project8 = (
+    var project9 = (
       <div key="A-Heat-Map" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Heat-Map/" title="">
@@ -125,7 +140,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project9 = (
+    var project10 = (
       <div key="A-Quote-Machine" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Random-Quote-Machine/" title="">
@@ -139,7 +154,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project10 = (
+    var project11 = (
       <div key="A-Choropleth-Map" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Choropleth-Map/" title="">
@@ -153,7 +168,7 @@ class Portfolio extends Component {
         </div>
       </div>
     )
-    var project11 = (
+    var project12 = (
       <div key="A-Treemap-Diagram" className="columns portfolio-item">
         <div className="item-wrap">
           <a href="https://davion-wong.github.io/A-Treemap-Diagram/" title="">
@@ -184,6 +199,7 @@ class Portfolio extends Component {
               {project9}
               {project10}
               {project11}
+              {project12}
             </div>
           </div>
         </div>
