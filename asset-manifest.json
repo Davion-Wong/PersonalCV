@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.bab0b925.chunk.css",
-    "main.js": "./static/js/main.c70fc24c.chunk.js",
-    "main.js.map": "./static/js/main.c70fc24c.chunk.js.map",
+    "main.js": "./static/js/main.252b741c.chunk.js",
+    "main.js.map": "./static/js/main.252b741c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.bfb07062.js",
     "runtime-main.js.map": "./static/js/runtime-main.bfb07062.js.map",
     "static/js/2.cf51aa1f.chunk.js": "./static/js/2.cf51aa1f.chunk.js",
@@ -22,12 +22,13 @@
     "static/media/A-Random-Quote-Machine.5dba3aef.png": "./static/media/A-Random-Quote-Machine.5dba3aef.png",
     "static/media/A-ScatterPlot-Graph.c5e7bf4a.png": "./static/media/A-ScatterPlot-Graph.c5e7bf4a.png",
     "static/media/A-Treemap-Diagram.9cd8d813.png": "./static/media/A-Treemap-Diagram.9cd8d813.png",
-    "static/media/My-E-Commerce.49bf24f8.png": "./static/media/My-E-Commerce.49bf24f8.png"
+    "static/media/My-E-Commerce.49bf24f8.png": "./static/media/My-E-Commerce.49bf24f8.png",
+    "static/media/My-Finance-Dashboard.39e4b42d.png": "./static/media/My-Finance-Dashboard.39e4b42d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bfb07062.js",
     "static/js/2.cf51aa1f.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.c70fc24c.chunk.js"
+    "static/js/main.252b741c.chunk.js"
   ]
 }
